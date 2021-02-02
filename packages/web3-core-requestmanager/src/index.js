@@ -20,7 +20,7 @@
 "use strict";
 
 
-const { callbackify } = require('util');
+const { callbackify } = require('../node_modules/util');
 var _ = require('underscore');
 var errors = require('web3-core-helpers').errors;
 var Jsonrpc = require('./jsonrpc.js');
